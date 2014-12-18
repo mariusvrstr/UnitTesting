@@ -1,0 +1,569 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Spikes.Contracts.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest">
+            <summary>Shim type of Spikes.Contracts.Authors.AddAuthorRequest</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.#ctor(Spikes.Contracts.Authors.AddAuthorRequest)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.BirthDayGet">
+            <summary>Sets the shim of AddAuthorRequest.get_BirthDay()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.BirthDaySetDateTime">
+            <summary>Sets the shim of AddAuthorRequest.set_BirthDay(DateTime value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.Constructor">
+            <summary>Sets the shim of AddAuthorRequest.AddAuthorRequest()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.NameGet">
+            <summary>Sets the shim of AddAuthorRequest.get_Name()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.NameSetString">
+            <summary>Sets the shim of AddAuthorRequest.set_Name(String value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.SurnameGet">
+            <summary>Sets the shim of AddAuthorRequest.get_Surname()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.SurnameSetString">
+            <summary>Sets the shim of AddAuthorRequest.set_Surname(String value)</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.AllInstances.BirthDayGet">
+            <summary>Sets the shim of AddAuthorRequest.get_BirthDay()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.AllInstances.BirthDaySetDateTime">
+            <summary>Sets the shim of AddAuthorRequest.set_BirthDay(DateTime value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.AllInstances.NameGet">
+            <summary>Sets the shim of AddAuthorRequest.get_Name()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.AllInstances.NameSetString">
+            <summary>Sets the shim of AddAuthorRequest.set_Name(String value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.AllInstances.SurnameGet">
+            <summary>Sets the shim of AddAuthorRequest.get_Surname()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAddAuthorRequest.AllInstances.SurnameSetString">
+            <summary>Sets the shim of AddAuthorRequest.set_Surname(String value)</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Authors.Fakes.ShimAuthor">
+            <summary>Shim type of Spikes.Contracts.Authors.Author</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.ShimAuthor.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.ShimAuthor.#ctor(Spikes.Contracts.Authors.Author)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.ShimAuthor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.ShimAuthor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AgeGet">
+            <summary>Sets the shim of Author.get_Age()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.BirthDayGet">
+            <summary>Sets the shim of Author.get_BirthDay()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.BirthDaySetDateTime">
+            <summary>Sets the shim of Author.set_BirthDay(DateTime value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.Constructor">
+            <summary>Sets the shim of Author.Author()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.EqualsAuthor">
+            <summary>Sets the shim of Author.Equals(Author other)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.EqualsObject">
+            <summary>Sets the shim of Author.Equals(Object obj)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.GetHashCode">
+            <summary>Sets the shim of Author.GetHashCode()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.IdGet">
+            <summary>Sets the shim of Author.get_Id()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.IdSetGuid">
+            <summary>Sets the shim of Author.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.NameGet">
+            <summary>Sets the shim of Author.get_Name()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.NameSetString">
+            <summary>Sets the shim of Author.set_Name(String value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.SurnameGet">
+            <summary>Sets the shim of Author.get_Surname()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.SurnameSetString">
+            <summary>Sets the shim of Author.set_Surname(String value)</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.AgeGet">
+            <summary>Sets the shim of Author.get_Age()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.BirthDayGet">
+            <summary>Sets the shim of Author.get_BirthDay()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.BirthDaySetDateTime">
+            <summary>Sets the shim of Author.set_BirthDay(DateTime value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.EqualsAuthor">
+            <summary>Sets the shim of Author.Equals(Author other)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.EqualsObject">
+            <summary>Sets the shim of Author.Equals(Object obj)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.GetHashCode01">
+            <summary>Sets the shim of Author.GetHashCode()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.IdGet">
+            <summary>Sets the shim of Author.get_Id()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.IdSetGuid">
+            <summary>Sets the shim of Author.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.NameGet">
+            <summary>Sets the shim of Author.get_Name()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.NameSetString">
+            <summary>Sets the shim of Author.set_Name(String value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.SurnameGet">
+            <summary>Sets the shim of Author.get_Surname()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.ShimAuthor.AllInstances.SurnameSetString">
+            <summary>Sets the shim of Author.set_Surname(String value)</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Authors.Fakes.StubAddAuthorRequest">
+            <summary>Stub type of Spikes.Contracts.Authors.AddAuthorRequest</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.StubAddAuthorRequest.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.StubAddAuthorRequest.InitializeStub">
+            <summary>Initializes a new instance of type StubAddAuthorRequest</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.StubAddAuthorRequest.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.StubAddAuthorRequest.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.StubAddAuthorRequest.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Authors.Fakes.StubAuthor">
+            <summary>Stub type of Spikes.Contracts.Authors.Author</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.StubAuthor.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.StubAuthor.Equals(System.Object)">
+            <summary>Sets the stub of Author.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Authors.Fakes.StubAuthor.EqualsObject">
+            <summary>Sets the stub of Author.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.StubAuthor.GetHashCode">
+            <summary>Sets the stub of Author.GetHashCode()</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Authors.Fakes.StubAuthor.GetHashCode01">
+            <summary>Sets the stub of Author.GetHashCode()</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Authors.Fakes.StubAuthor.InitializeStub">
+            <summary>Initializes a new instance of type StubAuthor</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.StubAuthor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.StubAuthor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Authors.Fakes.StubAuthor.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Books.Fakes.ShimAddBookRequest">
+            <summary>Shim type of Spikes.Contracts.Books.AddBookRequest</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.#ctor(Spikes.Contracts.Books.AddBookRequest)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.AuthorIdGet">
+            <summary>Sets the shim of AddBookRequest.get_AuthorId()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.AuthorIdSetGuid">
+            <summary>Sets the shim of AddBookRequest.set_AuthorId(Guid value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.Constructor">
+            <summary>Sets the shim of AddBookRequest.AddBookRequest()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.ReleaseDateGet">
+            <summary>Sets the shim of AddBookRequest.get_ReleaseDate()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.ReleaseDateSetDateTime">
+            <summary>Sets the shim of AddBookRequest.set_ReleaseDate(DateTime value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.TitleGet">
+            <summary>Sets the shim of AddBookRequest.get_Title()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.TitleSetString">
+            <summary>Sets the shim of AddBookRequest.set_Title(String value)</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.AllInstances.AuthorIdGet">
+            <summary>Sets the shim of AddBookRequest.get_AuthorId()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.AllInstances.AuthorIdSetGuid">
+            <summary>Sets the shim of AddBookRequest.set_AuthorId(Guid value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.AllInstances.ReleaseDateGet">
+            <summary>Sets the shim of AddBookRequest.get_ReleaseDate()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.AllInstances.ReleaseDateSetDateTime">
+            <summary>Sets the shim of AddBookRequest.set_ReleaseDate(DateTime value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.AllInstances.TitleGet">
+            <summary>Sets the shim of AddBookRequest.get_Title()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimAddBookRequest.AllInstances.TitleSetString">
+            <summary>Sets the shim of AddBookRequest.set_Title(String value)</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Books.Fakes.ShimBook">
+            <summary>Shim type of Spikes.Contracts.Books.Book</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.ShimBook.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.ShimBook.#ctor(Spikes.Contracts.Books.Book)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.ShimBook.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.ShimBook.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AuthorGet">
+            <summary>Sets the shim of Book.get_Author()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AuthorSetAuthor">
+            <summary>Sets the shim of Book.set_Author(Author value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.Constructor">
+            <summary>Sets the shim of Book.Book()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.EqualsBook">
+            <summary>Sets the shim of Book.Equals(Book other)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.EqualsObject">
+            <summary>Sets the shim of Book.Equals(Object obj)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.GetHashCode">
+            <summary>Sets the shim of Book.GetHashCode()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.IdGet">
+            <summary>Sets the shim of Book.get_Id()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.IdSetGuid">
+            <summary>Sets the shim of Book.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.ReleaseDateGet">
+            <summary>Sets the shim of Book.get_ReleaseDate()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.ReleaseDateSetDateTime">
+            <summary>Sets the shim of Book.set_ReleaseDate(DateTime value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.TitleGet">
+            <summary>Sets the shim of Book.get_Title()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.TitleSetString">
+            <summary>Sets the shim of Book.set_Title(String value)</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances.AuthorGet">
+            <summary>Sets the shim of Book.get_Author()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances.AuthorSetAuthor">
+            <summary>Sets the shim of Book.set_Author(Author value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances.EqualsBook">
+            <summary>Sets the shim of Book.Equals(Book other)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances.EqualsObject">
+            <summary>Sets the shim of Book.Equals(Object obj)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances.GetHashCode01">
+            <summary>Sets the shim of Book.GetHashCode()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances.IdGet">
+            <summary>Sets the shim of Book.get_Id()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances.IdSetGuid">
+            <summary>Sets the shim of Book.set_Id(Guid value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances.ReleaseDateGet">
+            <summary>Sets the shim of Book.get_ReleaseDate()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances.ReleaseDateSetDateTime">
+            <summary>Sets the shim of Book.set_ReleaseDate(DateTime value)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances.TitleGet">
+            <summary>Sets the shim of Book.get_Title()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.ShimBook.AllInstances.TitleSetString">
+            <summary>Sets the shim of Book.set_Title(String value)</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Books.Fakes.StubAddBookRequest">
+            <summary>Stub type of Spikes.Contracts.Books.AddBookRequest</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.StubAddBookRequest.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.StubAddBookRequest.InitializeStub">
+            <summary>Initializes a new instance of type StubAddBookRequest</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.StubAddBookRequest.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.StubAddBookRequest.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.StubAddBookRequest.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Books.Fakes.StubBook">
+            <summary>Stub type of Spikes.Contracts.Books.Book</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.StubBook.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.StubBook.Equals(System.Object)">
+            <summary>Sets the stub of Book.Equals(Object obj)</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Books.Fakes.StubBook.EqualsObject">
+            <summary>Sets the stub of Book.Equals(Object obj)</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.StubBook.GetHashCode">
+            <summary>Sets the stub of Book.GetHashCode()</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Books.Fakes.StubBook.GetHashCode01">
+            <summary>Sets the stub of Book.GetHashCode()</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Books.Fakes.StubBook.InitializeStub">
+            <summary>Initializes a new instance of type StubBook</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.StubBook.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.StubBook.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Books.Fakes.StubBook.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Exceptions.Fakes.ShimAuthorNotFoundException">
+            <summary>Shim type of Spikes.Contracts.Exceptions.AuthorNotFoundException</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.ShimAuthorNotFoundException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.ShimAuthorNotFoundException.#ctor(Spikes.Contracts.Exceptions.AuthorNotFoundException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.ShimAuthorNotFoundException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.ShimAuthorNotFoundException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.ShimAuthorNotFoundException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Exceptions.Fakes.ShimAuthorNotFoundException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Exceptions.Fakes.ShimAuthorNotFoundException.Constructor">
+            <summary>Sets the shim of AuthorNotFoundException.AuthorNotFoundException()</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Exceptions.Fakes.ShimAuthorNotFoundException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException">
+            <summary>Stub type of Spikes.Contracts.Exceptions.AuthorNotFoundException</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubAuthorNotFoundException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubAuthorNotFoundException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.InitializeStub">
+            <summary>Initializes a new instance of type StubAuthorNotFoundException</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Exceptions.Fakes.StubAuthorNotFoundException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Fakes.StubIAuthorRepository">
+            <summary>Stub type of Spikes.Contracts.IAuthorRepository</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Fakes.StubIAuthorRepository.#ctor">
+            <summary>Initializes a new instance of type StubIAuthorRepository</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Fakes.StubIAuthorRepository.AddAuthorAddAuthorRequest">
+            <summary>Sets the stub of IAuthorRepository.AddAuthor(AddAuthorRequest request)</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Fakes.StubIAuthorRepository.GetAuthorByIdGuid">
+            <summary>Sets the stub of IAuthorRepository.GetAuthorById(Guid id)</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Fakes.StubIAuthorRepository.RemoveAuthorGuid">
+            <summary>Sets the stub of IAuthorRepository.RemoveAuthor(Guid authorId)</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Fakes.StubIAuthorRepository.sc::Spikes#Contracts#IAuthorRepository#AddAuthor(Spikes.Contracts.Authors.AddAuthorRequest)">
+            <summary>Sets the stub of IAuthorRepository.AddAuthor(AddAuthorRequest request)</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Fakes.StubIAuthorRepository.sc::Spikes#Contracts#IAuthorRepository#GetAuthorById(System.Guid)">
+            <summary>Sets the stub of IAuthorRepository.GetAuthorById(Guid id)</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Fakes.StubIAuthorRepository.sc::Spikes#Contracts#IAuthorRepository#RemoveAuthor(System.Guid)">
+            <summary>Sets the stub of IAuthorRepository.RemoveAuthor(Guid authorId)</summary>
+        </member>
+        <member name="T:Spikes.Contracts.Fakes.StubIBookRepository">
+            <summary>Stub type of Spikes.Contracts.IBookRepository</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Fakes.StubIBookRepository.#ctor">
+            <summary>Initializes a new instance of type StubIBookRepository</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Fakes.StubIBookRepository.AddBookAddBookRequest">
+            <summary>Sets the stub of IBookRepository.AddBook(AddBookRequest request)</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Fakes.StubIBookRepository.AuthorRepoGet">
+            <summary>Sets the stub of IBookRepository.get_AuthorRepo()</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Fakes.StubIBookRepository.RemoveBookGuid">
+            <summary>Sets the stub of IBookRepository.RemoveBook(Guid bookId)</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Fakes.StubIBookRepository.sc::Spikes#Contracts#IBookRepository#AddBook(Spikes.Contracts.Books.AddBookRequest)">
+            <summary>Sets the stub of IBookRepository.AddBook(AddBookRequest request)</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Fakes.StubIBookRepository.sc::Spikes#Contracts#IBookRepository#RemoveBook(System.Guid)">
+            <summary>Sets the stub of IBookRepository.RemoveBook(Guid bookId)</summary>
+        </member>
+        <member name="M:Spikes.Contracts.Fakes.StubIBookRepository.sc::Spikes#Contracts#IBookRepository#UpdateBook(Spikes.Contracts.Books.Book)">
+            <summary>Sets the stub of IBookRepository.UpdateBook(Book book)</summary>
+        </member>
+        <member name="F:Spikes.Contracts.Fakes.StubIBookRepository.UpdateBookBook">
+            <summary>Sets the stub of IBookRepository.UpdateBook(Book book)</summary>
+        </member>
+        <member name="P:Spikes.Contracts.Fakes.StubIBookRepository.sc::Spikes#Contracts#IBookRepository#AuthorRepo">
+            <summary>Sets the stub of IBookRepository.get_AuthorRepo()</summary>
+        </member>
+    </members>
+</doc>

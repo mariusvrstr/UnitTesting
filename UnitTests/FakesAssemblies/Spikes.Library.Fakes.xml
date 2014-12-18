@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Spikes.Library.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Spikes.Library.Authors.Fakes.ShimAuthorRepository">
+            <summary>Shim type of Spikes.Library.Authors.AuthorRepository</summary>
+        </member>
+        <member name="M:Spikes.Library.Authors.Fakes.ShimAuthorRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Spikes.Library.Authors.Fakes.ShimAuthorRepository.#ctor(Spikes.Library.Authors.AuthorRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Spikes.Library.Authors.Fakes.ShimAuthorRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Library.Authors.Fakes.ShimAuthorRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Library.Authors.Fakes.ShimAuthorRepository.Bind(Spikes.Contracts.IAuthorRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.ShimAuthorRepository.AddAuthorAddAuthorRequest">
+            <summary>Sets the shim of AuthorRepository.AddAuthor(AddAuthorRequest request)</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.ShimAuthorRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.ShimAuthorRepository.Constructor">
+            <summary>Sets the shim of AuthorRepository.AuthorRepository()</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.ShimAuthorRepository.GetAuthorByIdGuid">
+            <summary>Sets the shim of AuthorRepository.GetAuthorById(Guid id)</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.ShimAuthorRepository.RemoveAuthorGuid">
+            <summary>Sets the shim of AuthorRepository.RemoveAuthor(Guid authorId)</summary>
+        </member>
+        <member name="T:Spikes.Library.Authors.Fakes.ShimAuthorRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.ShimAuthorRepository.AllInstances.AddAuthorAddAuthorRequest">
+            <summary>Sets the shim of AuthorRepository.AddAuthor(AddAuthorRequest request)</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.ShimAuthorRepository.AllInstances.GetAuthorByIdGuid">
+            <summary>Sets the shim of AuthorRepository.GetAuthorById(Guid id)</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.ShimAuthorRepository.AllInstances.RemoveAuthorGuid">
+            <summary>Sets the shim of AuthorRepository.RemoveAuthor(Guid authorId)</summary>
+        </member>
+        <member name="T:Spikes.Library.Authors.Fakes.ShimAuthorWorker">
+            <summary>Shim type of Spikes.Library.Authors.AuthorWorker</summary>
+        </member>
+        <member name="M:Spikes.Library.Authors.Fakes.ShimAuthorWorker.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Spikes.Library.Authors.Fakes.ShimAuthorWorker.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Library.Authors.Fakes.ShimAuthorWorker.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.ShimAuthorWorker.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="T:Spikes.Library.Authors.Fakes.StubAuthorRepository">
+            <summary>Stub type of Spikes.Library.Authors.AuthorRepository</summary>
+        </member>
+        <member name="M:Spikes.Library.Authors.Fakes.StubAuthorRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Spikes.Library.Authors.Fakes.StubAuthorRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubAuthorRepository</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.StubAuthorRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.StubAuthorRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Spikes.Library.Authors.Fakes.StubAuthorRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Spikes.Library.Books.Fakes.ShimBookRepository">
+            <summary>Shim type of Spikes.Library.Books.BookRepository</summary>
+        </member>
+        <member name="M:Spikes.Library.Books.Fakes.ShimBookRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Spikes.Library.Books.Fakes.ShimBookRepository.#ctor(Spikes.Library.Books.BookRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Spikes.Library.Books.Fakes.ShimBookRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Library.Books.Fakes.ShimBookRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Library.Books.Fakes.ShimBookRepository.Bind(Spikes.Contracts.IBookRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.ShimBookRepository.AddBookAddBookRequest">
+            <summary>Sets the shim of BookRepository.AddBook(AddBookRequest request)</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.ShimBookRepository.AuthorRepoGet">
+            <summary>Sets the shim of BookRepository.get_AuthorRepo()</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.ShimBookRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.ShimBookRepository.Constructor">
+            <summary>Sets the shim of BookRepository.BookRepository()</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.ShimBookRepository.ConstructorIAuthorRepository">
+            <summary>Sets the shim of BookRepository.BookRepository(IAuthorRepository authorRepo)</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.ShimBookRepository.RemoveBookGuid">
+            <summary>Sets the shim of BookRepository.RemoveBook(Guid bookId)</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.ShimBookRepository.UpdateBookBook">
+            <summary>Sets the shim of BookRepository.UpdateBook(Book book)</summary>
+        </member>
+        <member name="T:Spikes.Library.Books.Fakes.ShimBookRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.ShimBookRepository.AllInstances.AddBookAddBookRequest">
+            <summary>Sets the shim of BookRepository.AddBook(AddBookRequest request)</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.ShimBookRepository.AllInstances.AuthorRepoGet">
+            <summary>Sets the shim of BookRepository.get_AuthorRepo()</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.ShimBookRepository.AllInstances.RemoveBookGuid">
+            <summary>Sets the shim of BookRepository.RemoveBook(Guid bookId)</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.ShimBookRepository.AllInstances.UpdateBookBook">
+            <summary>Sets the shim of BookRepository.UpdateBook(Book book)</summary>
+        </member>
+        <member name="T:Spikes.Library.Books.Fakes.StubBookRepository">
+            <summary>Stub type of Spikes.Library.Books.BookRepository</summary>
+        </member>
+        <member name="M:Spikes.Library.Books.Fakes.StubBookRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Spikes.Library.Books.Fakes.StubBookRepository.#ctor(Spikes.Contracts.IAuthorRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Spikes.Library.Books.Fakes.StubBookRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubBookRepository</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.StubBookRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.StubBookRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Spikes.Library.Books.Fakes.StubBookRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Spikes.Library.Fakes.ShimRepositoryFactory">
+            <summary>Shim type of Spikes.Library.RepositoryFactory</summary>
+        </member>
+        <member name="M:Spikes.Library.Fakes.ShimRepositoryFactory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Spikes.Library.Fakes.ShimRepositoryFactory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Spikes.Library.Fakes.ShimRepositoryFactory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Library.Fakes.ShimRepositoryFactory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Spikes.Library.Fakes.ShimRepositoryFactory.CreateAuthorRepository">
+            <summary>Sets the shim of RepositoryFactory.CreateAuthorRepository()</summary>
+        </member>
+        <member name="P:Spikes.Library.Fakes.ShimRepositoryFactory.CreateBookRepository">
+            <summary>Sets the shim of RepositoryFactory.CreateBookRepository()</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,4 @@
+C:\Development\Spikes\UnitTesting\UnitTestProject1\Fakes\Spikes.Library.fakes : warning : Cannot generate stub for Spikes.Library.Authors.AuthorWorker: type is sealed.
+C:\Development\Spikes\UnitTesting\UnitTestProject1\Fakes\Spikes.Library.fakes : warning : Cannot generate stub for Spikes.Library.RepositoryFactory: type is sealed.
+C:\Development\Spikes\UnitTesting\UnitTestProject1\Fakes\Spikes.Library.fakes : warning : Cannot generate shim for Spikes.Library.Authors.AuthorRepository+<>c__DisplayClass2: type is not supported because of internal limitations.
+C:\Development\Spikes\UnitTesting\UnitTestProject1\Fakes\Spikes.Library.fakes : warning : Cannot generate shim for Spikes.Library.Authors.AuthorRepository+<>c__DisplayClass5: type is not supported because of internal limitations.

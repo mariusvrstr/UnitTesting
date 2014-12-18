@@ -1,0 +1,2 @@
+C:\Development\Spikes\UnitTestExamples\UnitTestProject1\Fakes\Spikes.Contracts.fakes : warning : Cannot generate shim for Spikes.Contracts.IAuthorRepository: type is an interface.
+C:\Development\Spikes\UnitTestExamples\UnitTestProject1\Fakes\Spikes.Contracts.fakes : warning : Cannot generate shim for Spikes.Contracts.IBookRepository: type is an interface.
